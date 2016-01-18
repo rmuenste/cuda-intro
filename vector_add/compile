@@ -1,0 +1,1 @@
+nvcc -gencode arch=compute_35,code=sm_35 vector_add_threads.cu -o vector_add_threads
