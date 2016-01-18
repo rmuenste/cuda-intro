@@ -1,0 +1,1 @@
+nvcc -gencode arch=compute_52,code=sm_52 vector_add_err1.cu -o vector_add_err1
